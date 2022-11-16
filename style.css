@@ -1,3 +1,4 @@
+/* custom variables for the colors */
 :root{
     --aries: #f7dc97;
     --taurus: #6186bc;
@@ -13,18 +14,33 @@
     --pisces: #447dd8;
 }
 
-html {
-    font-size: 100%;
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
 body {
-    margin: 0;
-    padding: 0;
+    min-height: 100vh;
+    background-image: url(images/bg-01.png);
+    background-size: cover;
+    background-position: center;
     font-family: 'El Messiri', sans-serif;
-    line-height: 0;
+}
+
+#inner-container{
+    min-height: 80vh;
+}
+
+.input-group select{
+    background-color: transparent;
+    border-radius: 0;
+    border: #fff;
+    border-bottom: 2px solid white;
+    color: rgba(255, 255, 255, .75);
+    font-size: 24px;
+}
+
+#select-form:focus-visible{
+    outline: none;
+}
+
+.input-group option{
+    background-color: rgba(0, 0, 0, .85);
+    color: white;
+    font-size: 16px;
 }
