@@ -22,6 +22,10 @@ body {
     font-family: 'El Messiri', sans-serif;
 }
 
+p{
+    margin: 0;
+}
+
 #inner-container{
     min-height: 80vh;
 }
@@ -43,4 +47,38 @@ body {
     background-color: rgba(0, 0, 0, .85);
     color: white;
     font-size: 16px;
+}
+
+#img-container img{
+    width: 65%;
+    height: auto;
+}
+
+#output{
+    width: 70vw;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 12px;
+}
+
+.img-caption{
+    font-size: 1.5rem;
+}
+
+.text-container {
+    font-size: 1.35rem;
+}
+
+.curr-date {
+    font-size: 1.1rem;
+    margin-bottom: .75rem;
+}
+
+@media screen and (max-width: 576px) {
+    #image-cont{
+        margin-bottom: .75rem;
+    }
+
+    .others{
+        flex-direction: column;
+    }
 }

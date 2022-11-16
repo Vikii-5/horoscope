@@ -13,6 +13,8 @@
 <body>
 
     <div id="main-container" class="container-fluid">
+
+    <!-- navbar component -->
     <div class="row">
         <nav class="navbar p-4 align-self-start">
             <div class="container-fluid">
@@ -21,10 +23,13 @@
         </nav>
     </div>
 
+    <!-- main container -->
     <div class="container">
-        <div id="inner-container" class="row align-items-center">
+        <div id="inner-container" class="row justify-content-center align-items-center">
+
+        <!-- input container consists select options and button -->
         <div class="row justify-content-center">
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
                 <div class="input-group mb-5">
                     <select id="select-form" class="form-select form-select-lg" id="inputGroupSelect01">
                       <option selected>Select Your Zodiac Sign</option>
@@ -43,7 +48,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
                 <div class="input-group mb-5">
                     <select id="select-form" class="form-select form-select-lg" id="inputGroupSelect02">
                       <option selected>Select a Day</option>
@@ -53,14 +58,41 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12">
+            <div class="col-lg-5 col-sm-12 mb-2">
                 <div class="input-group justify-content-center">
                     <button type="submit" class="btn btn-outline-light btn-lg">Your Horoscope</button>
                 </div>
             </div>
+        
+            <!-- output container -->
+            <div id="output" class="row p-4 mt-5 align-items-center">
+            <div id="image-cont" class="col-md-4 col-sm-12 mb-lg-0 mb-sm-4 text-center">
+                <div id="img-container">
+                    <img src="images/Aries.png" alt="aries">
+                </div>
+                <div class="img-caption text-light text-center">
+                    <span>Aries</span>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="text-container text-light">
+                    <p class="text-start curr-date">November 16, 2022</p>
+                    <p class="mb-3">You're doing an admirable job of living in the moment, not dwelling on the past or clinging to old ideas. The future, however, is demanding a little attention now.</p>
+                    <div class="others d-flex flex-md-row flex-sm-column">
+                        <p class="me-5">Mood: Hopeful</p>
+                        <p class="me-5">Color: Navy Blue</p>
+                        <p>Lucky Number: 73</p>
+                    </div>
+                </div>
+            </div>    
+            </div>
+
         </div>
+
     </div>
+
     </div>
+
     </div>
 
 </body>
