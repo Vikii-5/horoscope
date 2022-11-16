@@ -1,0 +1,30 @@
+:root{
+    --aries: #f7dc97;
+    --taurus: #6186bc;
+    --gemini: #eaa0a0;
+    --cancer: #915bce;
+    --leo: #c46a4b;
+    --virgo: #e6aeaf;
+    --libra: #79b785;
+    --scorpio: #e58848;
+    --sagittarius: #cc77e0;
+    --capricon: #b25f36;
+    --aquarius: #6cd3b8;
+    --pisces: #447dd8;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'El Messiri', sans-serif;
+    line-height: 0;
+}
