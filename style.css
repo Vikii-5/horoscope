@@ -1,4 +1,4 @@
-/* custom variables for the colors */
+/* custom variables for the colors
 :root {
   --aries: #f7dc97;
   --taurus: #6186bc;
@@ -9,10 +9,10 @@
   --libra: #79b785;
   --scorpio: #e58848;
   --sagittarius: #cc77e0;
-  --capricon: #b25f36;
+  --capricorn: #b25f36;
   --aquarius: #6cd3b8;
   --pisces: #447dd8;
-}
+} */
 
 body {
   min-height: 100vh;
@@ -30,12 +30,16 @@ p {
   min-height: 80vh;
 }
 
+#logo{
+    color: white;
+}
+
 .input-group select {
   background-color: transparent;
   border-radius: 0;
   border: #fff;
   border-bottom: 2px solid white;
-  color: rgba(255, 255, 255, 0.75);
+  color: white;
   font-size: 24px;
 }
 
@@ -55,7 +59,7 @@ p {
 }
 
 #output {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 12px;
 }
 

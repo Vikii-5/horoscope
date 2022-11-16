@@ -37,12 +37,81 @@ submitBtn.addEventListener("click", () => {
                 <p class="text-start curr-date">${data.current_date}</p>
                 <p class="mb-3">${data.description}</p>
                 <div class="others d-flex flex-md-row flex-sm-column">
-                    <p class="me-5">Mood: ${data.mood}</p>
-                    <p class="me-5">Color: ${data.color}</p>
-                    <p>Lucky Number: ${data.lucky_number}</p>
+                    <p id="mood" class="me-5">Mood: ${data.mood}</p>
+                    <p id="color" class="me-5">Color: ${data.color}</p>
+                    <p id="lucky-number">Lucky Number: ${data.lucky_number}</p>
                 </div>
             </div>
         </div>    
         </div>`;
     });
+
+  // changing the background image and logo color according to selected zodiac sign
+  let body = document.querySelector("body");
+
+  switch (zodiac) {
+    case "aries":
+      {
+        body.style.backgroundImage = "url(images/aries-bg-01.png)";
+      }
+      break;
+    case "taurus":
+      {
+        body.style.backgroundImage = "url(images/taurus-bg-01.png)";
+      }
+      break;
+    case "gemini":
+      {
+        body.style.backgroundImage = "url(images/gemini-bg-01.png)";
+      }
+      break;
+    case "cancer":
+      {
+        body.style.backgroundImage = "url(images/cancer-bg-01.png)";
+      }
+      break;
+    case "leo":
+      {
+        body.style.backgroundImage = "url(images/leo-bg-01.png)";
+      }
+      break;
+    case "virgo":
+      {
+        body.style.backgroundImage = "url(images/virgo-bg-01.png)";
+      }
+      break;
+    case "libra":
+      {
+        body.style.backgroundImage = "url(images/libra-bg-01.png)";
+      }
+      break;
+    case "scorpio":
+      {
+        body.style.backgroundImage = "url(images/scorpio-bg-01.png)";
+      }
+      break;
+    case "sagittarius":
+      {
+        body.style.backgroundImage = "url(images/sagittarius-bg-01.png)";
+      }
+      break;
+    case "capricorn":
+      {
+        body.style.backgroundImage = "url(images/capricorn-bg-01.png)";
+      }
+      break;
+    case "aquarius":
+      {
+        body.style.backgroundImage = "url(images/aquarius-bg-01.png)";
+      }
+      break;
+    case "pisces":
+      {
+        body.style.backgroundImage = "url(images/pisces-bg-01.png)";
+      }
+      break;
+    case "default": {
+      body.style.backgroundImage = "url(images/bg-01.png)";
+    }
+  }
 });
