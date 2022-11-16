@@ -39,10 +39,6 @@ p{
     font-size: 24px;
 }
 
-#select-form:focus-visible{
-    outline: none;
-}
-
 .input-group option{
     background-color: rgba(0, 0, 0, .85);
     color: white;
@@ -54,8 +50,11 @@ p{
     height: auto;
 }
 
-#output{
+#output-container{
     width: 70vw;
+}
+
+#output{
     background-color: rgba(0, 0, 0, .4);
     border-radius: 12px;
 }

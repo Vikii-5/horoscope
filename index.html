@@ -31,60 +31,42 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-sm-12">
                 <div class="input-group mb-5">
-                    <select id="select-form" class="form-select form-select-lg" id="inputGroupSelect01">
+                    <select id="zodiac-select" class="form-select form-select-lg" id="inputGroupSelect01">
                       <option selected>Select Your Zodiac Sign</option>
-                      <option value="Aries">Aries</option>
-                      <option value="Taurus">Taurus</option>
-                      <option value="Gemini">Gemini</option>
-                      <option value="Cancer">Cancer</option>
-                      <option value="Leo">Leo</option>
-                      <option value="Virgo">Virgo</option>
-                      <option value="Libra">Libra</option>
-                      <option value="Scorpio">Scorpio</option>
-                      <option value="Sagittarius">Sagittarius</option>
-                      <option value="Capricorn">Capricorn</option>
-                      <option value="Aquarius">Aquarius</option>
-                      <option value="Pisces">Pisces</option>
+                      <option value="aries">Aries</option>
+                      <option value="taurus">Taurus</option>
+                      <option value="gemini">Gemini</option>
+                      <option value="cancer">Cancer</option>
+                      <option value="leo">Leo</option>
+                      <option value="virgo">Virgo</option>
+                      <option value="libra">Libra</option>
+                      <option value="scorpio">Scorpio</option>
+                      <option value="sagittarius">Sagittarius</option>
+                      <option value="capricorn">Capricorn</option>
+                      <option value="aquarius">Aquarius</option>
+                      <option value="pisces">Pisces</option>
                     </select>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="input-group mb-5">
-                    <select id="select-form" class="form-select form-select-lg" id="inputGroupSelect02">
+                    <select id="day-select" class="form-select form-select-lg" id="inputGroupSelect02">
                       <option selected>Select a Day</option>
-                      <option value="Today">Today</option>
-                      <option value="Tomorrow">Tomorrow</option>
-                      <option value="Yesterday">Yesterday</option>
+                      <option value="today">Today</option>
+                      <option value="tomorrow">Tomorrow</option>
+                      <option value="yesterday">Yesterday</option>
                     </select>
                 </div>
             </div>
             <div class="col-lg-5 col-sm-12 mb-2">
                 <div class="input-group justify-content-center">
-                    <button type="submit" class="btn btn-outline-light btn-lg">Your Horoscope</button>
+                    <button type="submit" id="submit-btn" class="btn btn-outline-light btn-lg">Your Horoscope</button>
                 </div>
             </div>
         
             <!-- output container -->
-            <div id="output" class="row p-4 mt-5 align-items-center">
-            <div id="image-cont" class="col-md-4 col-sm-12 mb-lg-0 mb-sm-4 text-center">
-                <div id="img-container">
-                    <img src="images/Aries.png" alt="aries">
-                </div>
-                <div class="img-caption text-light text-center">
-                    <span>Aries</span>
-                </div>
-            </div>
-            <div class="col-md-8 col-sm-12">
-                <div class="text-container text-light">
-                    <p class="text-start curr-date">November 16, 2022</p>
-                    <p class="mb-3">You're doing an admirable job of living in the moment, not dwelling on the past or clinging to old ideas. The future, however, is demanding a little attention now.</p>
-                    <div class="others d-flex flex-md-row flex-sm-column">
-                        <p class="me-5">Mood: Hopeful</p>
-                        <p class="me-5">Color: Navy Blue</p>
-                        <p>Lucky Number: 73</p>
-                    </div>
-                </div>
-            </div>    
+            <div id="output-container">
+            
             </div>
 
         </div>
