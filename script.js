@@ -1,26 +1,28 @@
+// fetching the targeted elements
 let submitBtn = document.getElementById("submit-btn");
 let zodiacSign = document.getElementById("zodiac-select");
 let selectedDay = document.getElementById("day-select");
 let output = document.getElementById("output-container");
 
+// adding click event to submit button inorder to fetch the targeted data
 submitBtn.addEventListener("click", () => {
-    let zodiac = zodiacSign.value;
-    let day = selectedDay.value;
-    let URL = `https://aztro.sameerkumar.website/?sign=${zodiac}&day=${day}`
-    console.log(URL);
+  let zodiac = zodiacSign.value;
+  let day = selectedDay.value;
+  let URL = `https://aztro.sameerkumar.website/?sign=${zodiac}&day=${day}`;
+  console.log(URL);
 
-    fetch(URL, {
-        method: 'POST'
-    })
-    .then(response => response.json())
-    .then(data => {
-        // console.log(data.current_date);
-        // console.log(data.description);
-        // console.log(data.mood);
-        // console.log(data.color);
-        // console.log(data.lucky_number);
+  fetch(URL, {
+    method: "POST",
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      // console.log(data.current_date);
+      // console.log(data.description);
+      // console.log(data.mood);
+      // console.log(data.color);
+      // console.log(data.lucky_number);
 
-        output.innerHTML = `
+      output.innerHTML = `
         <div id="output" class="row p-4 mt-5 align-items-center">
         <div id="image-cont" class="col-md-4 col-sm-12 mb-lg-0 mb-sm-4 text-center">
             <div id="img-container">
@@ -41,6 +43,6 @@ submitBtn.addEventListener("click", () => {
                 </div>
             </div>
         </div>    
-        </div>`
+        </div>`;
     });
-})
+});
