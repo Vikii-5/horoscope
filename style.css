@@ -1,26 +1,10 @@
-/* custom variables for the colors
-:root {
-  --aries: #f7dc97;
-  --taurus: #6186bc;
-  --gemini: #eaa0a0;
-  --cancer: #915bce;
-  --leo: #c46a4b;
-  --virgo: #e6aeaf;
-  --libra: #79b785;
-  --scorpio: #e58848;
-  --sagittarius: #cc77e0;
-  --capricorn: #b25f36;
-  --aquarius: #6cd3b8;
-  --pisces: #447dd8;
-} */
-
 body {
   min-height: 100vh;
   background-image: url(images/bg-01.jpg);
   background-size: cover;
   background-position: center;
   font-family: "El Messiri", sans-serif;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 }
 
 p {
