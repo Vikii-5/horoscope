@@ -16,10 +16,11 @@
 
 body {
   min-height: 100vh;
-  background-image: url(images/bg-01.png);
+  background-image: url(images/bg-01.jpg);
   background-size: cover;
   background-position: center;
   font-family: "El Messiri", sans-serif;
+  transition: all 0.5s ease;
 }
 
 p {

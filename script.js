@@ -26,7 +26,7 @@ submitBtn.addEventListener("click", () => {
         <div id="output" class="row p-4 mt-5 align-items-center">
         <div id="image-cont" class="col-md-4 col-sm-12 mb-lg-0 mb-sm-4 text-center">
             <div id="img-container">
-                <img src="images/${zodiac}.png" alt="aries">
+                <img src="images/${zodiac}.png" alt="${zodiac}">
             </div>
             <div class="img-caption mt-3 text-light text-center">
                 <span>${zodiac.toUpperCase()}</span>
@@ -52,66 +52,66 @@ submitBtn.addEventListener("click", () => {
   switch (zodiac) {
     case "aries":
       {
-        body.style.backgroundImage = "url(images/aries-bg-01.png)";
+        body.style.backgroundImage = "url(images/aries-bg-01.jpg)";
       }
       break;
     case "taurus":
       {
-        body.style.backgroundImage = "url(images/taurus-bg-01.png)";
+        body.style.backgroundImage = "url(images/taurus-bg-01.jpg)";
       }
       break;
     case "gemini":
       {
-        body.style.backgroundImage = "url(images/gemini-bg-01.png)";
+        body.style.backgroundImage = "url(images/gemini-bg-01.jpg)";
       }
       break;
     case "cancer":
       {
-        body.style.backgroundImage = "url(images/cancer-bg-01.png)";
+        body.style.backgroundImage = "url(images/cancer-bg-01.jpg)";
       }
       break;
     case "leo":
       {
-        body.style.backgroundImage = "url(images/leo-bg-01.png)";
+        body.style.backgroundImage = "url(images/leo-bg-01.jpg)";
       }
       break;
     case "virgo":
       {
-        body.style.backgroundImage = "url(images/virgo-bg-01.png)";
+        body.style.backgroundImage = "url(images/virgo-bg-01.jpg)";
       }
       break;
     case "libra":
       {
-        body.style.backgroundImage = "url(images/libra-bg-01.png)";
+        body.style.backgroundImage = "url(images/libra-bg-01.jpg)";
       }
       break;
     case "scorpio":
       {
-        body.style.backgroundImage = "url(images/scorpio-bg-01.png)";
+        body.style.backgroundImage = "url(images/scorpio-bg-01.jpg)";
       }
       break;
     case "sagittarius":
       {
-        body.style.backgroundImage = "url(images/sagittarius-bg-01.png)";
+        body.style.backgroundImage = "url(images/sagittarius-bg-01.jpg)";
       }
       break;
     case "capricorn":
       {
-        body.style.backgroundImage = "url(images/capricorn-bg-01.png)";
+        body.style.backgroundImage = "url(images/capricorn-bg-01.jpg)";
       }
       break;
     case "aquarius":
       {
-        body.style.backgroundImage = "url(images/aquarius-bg-01.png)";
+        body.style.backgroundImage = "url(images/aquarius-bg-01.jpg)";
       }
       break;
     case "pisces":
       {
-        body.style.backgroundImage = "url(images/pisces-bg-01.png)";
+        body.style.backgroundImage = "url(images/pisces-bg-01.jpg)";
       }
       break;
     case "default": {
-      body.style.backgroundImage = "url(images/bg-01.png)";
+      body.style.backgroundImage = "url(images/bg-01.jpg)";
     }
   }
 });
